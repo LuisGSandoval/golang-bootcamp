@@ -22,7 +22,8 @@ func FeetToMeeters() {
 	feet, err := strconv.ParseFloat(arg, 64)
 
 	if err != nil {
-		fmt.Printf("Error: invalid input %v", arg)
+		fmt.Printf("🚫👎🏼Error: invalid input %v \n", arg)
+		return
 	}
 
 	meters := feet * 0.3048
