@@ -17,7 +17,7 @@ import "fmt"
 //  9 10 11
 // ---------------------------------------------------------
 
-// IotaMonths is a function that...
+// IotaMonths this is a test function
 func IotaMonths() {
 	const (
 		Nov = 11 - iota

@@ -15,7 +15,7 @@ import (
 //  10h0m0s later...
 // ---------------------------------------------------------
 
-// NoConversionsAllowed is a function that
+// NoConversionsAllowed this is a test function
 func NoConversionsAllowed() {
 	const later time.Duration = 10
 

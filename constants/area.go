@@ -14,7 +14,7 @@ import "fmt"
 //  area = 1250
 // ---------------------------------------------------------
 
-// Area is a function that
+// Area this is a test function
 func Area() {
 
 	const (

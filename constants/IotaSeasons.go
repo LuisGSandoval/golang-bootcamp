@@ -14,7 +14,7 @@ import "fmt"
 //  12 3 6 9
 // ---------------------------------------------------------
 
-// IotaSeasons is a function
+// IotaSeasons this is a test function
 func IotaSeasons() {
 	// NOTE : You should remove all the initializers below
 	//        first. Then use iota to fix it.

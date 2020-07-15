@@ -1,10 +1,8 @@
 package main
 
-import (
-	"github.com/LuisGSandoval/golang-bootcamp/mathematics"
-)
+import "github.com/LuisGSandoval/golang-bootcamp/switchstatement"
 
 func main() {
 
-	mathematics.FeetToMeeters()
+	switchstatement.EarthquakeMagnitude2()
 }
