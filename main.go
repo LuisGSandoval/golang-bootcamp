@@ -1,8 +1,11 @@
 package main
 
-import "github.com/LuisGSandoval/golang-bootcamp/switchstatement"
+import (
+	"github.com/LuisGSandoval/golang-bootcamp/forloop"
+)
 
 func main() {
 
-	switchstatement.EarthquakeMagnitude2()
+	forloop.InfiniteKill()
+
 }
