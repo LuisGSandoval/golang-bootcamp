@@ -1,11 +1,9 @@
 package main
 
-import (
-	"github.com/LuisGSandoval/golang-bootcamp/forloop"
-)
+import "github.com/LuisGSandoval/golang-bootcamp/beginners"
 
 func main() {
 
-	forloop.InfiniteKill()
+	beginners.CrunchThePrimes()
 
 }

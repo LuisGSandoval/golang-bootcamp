@@ -54,28 +54,29 @@ import (
 func InfiniteKill() {
 
 	var (
-		s      string
-		ranNum int
+		s       string
+		randNum int
 	)
 
 	for {
-		ranNum = rand.Intn(4)
 
-		switch ranNum {
-		case 1:
-			s = "/"
-		case 2:
-			s = "\\"
-		case 3:
-			s = "|"
-		case 4:
+		randNum = rand.Intn(4)
+
+		switch randNum {
+		case 0:
 			s = "-"
-
+		case 1:
+			s = "|"
+		case 2:
+			s = "/"
+		case 3:
+			s = "\\"
 		}
 
-		fmt.Printf("\r%s Please Wait. Processing.... ", s)
+		fmt.Printf("\r %s Please Wait. Processing....", s)
 
-		time.Sleep(time.Second / 5)
+		time.Sleep(time.Millisecond * 150)
+
 	}
 
 }
