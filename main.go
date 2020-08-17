@@ -1,9 +1,11 @@
 package main
 
-import "github.com/LuisGSandoval/golang-bootcamp/beginners"
+import (
+	"github.com/LuisGSandoval/golang-bootcamp/arrays1"
+)
 
 func main() {
 
-	beginners.CrunchThePrimes()
+	arrays1.CurrencyConverter()
 
 }
