@@ -33,5 +33,5 @@ func SliceComparison() {
 	fmt.Printf("len: %d |    slc3: %#v \n", len(slc2), slc2)
 	fmt.Printf("len: %d |    slc2: %#v \n", len(slc3), slc3)
 
-	print(strings.Repeat("\n", 10))
+	print(strings.Repeat("\n", 7))
 }

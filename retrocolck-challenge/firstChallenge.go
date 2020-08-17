@@ -8,7 +8,8 @@ import (
 // RenderClock is the function that will render the clock
 func RenderClock() {
 
-	for {
+	for shift := 0; ; shift++ {
+
 		// screen.Clear()
 		// screen.MoveTopLeft()
 		print("\033[H\033[2J") // this line clears the screen
@@ -27,21 +28,40 @@ func RenderClock() {
 			digits[ssec],
 		}
 
-		alarmed := sec%10 == 0
-		if alarmed {
-			clock = alarmSign
-		}
+		// alarmed := sec%10 == 0
+		// if alarmed {
+		// 	clock = alarmSign
+		// }
 
 		for line := 0; line < 5; line++ { // this is the height of each character
+
 			for index, digit := range clock {
 				next := clock[index][line]
-
 				if (digit == colon || digit == dot) && sec%2 == 0 {
 					next = "   "
 				}
 				fmt.Print(next, "  ")
-
 			}
+
+			// l := len(clock)
+			// s, e := shift%l, l
+			// if shift%(l*2) >= l {
+			// 	s, e = 0, s
+			// }
+			// for j := 0; j < l-e; j++ {
+			// 	fmt.Print("     ")
+			// }
+
+			// 	// draw the digits starting from 's' to 'e'
+			// for i := s; i < e; i++ {
+			// 	next := clock[i][line]
+			// 	if clock[i] == colon && sec%2 == 0 {
+			// 		next = "   "
+			// 	}
+
+			// 	fmt.Print(next, "  ")
+			// }
+
 			fmt.Println("\r")
 
 		}
