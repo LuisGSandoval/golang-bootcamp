@@ -1,11 +1,7 @@
 package main
 
-import (
-	"github.com/LuisGSandoval/golang-bootcamp/arrays1"
-)
+import "github.com/LuisGSandoval/golang-bootcamp/slices1"
 
 func main() {
-
-	arrays1.CurrencyConverter()
-
+	slices1.SliceComparison()
 }
