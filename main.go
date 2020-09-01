@@ -5,5 +5,7 @@ import (
 )
 
 func main() {
-	slices1.ApendByteSlices()
+
+	slices1.IncreasingCapacity()
+
 }
