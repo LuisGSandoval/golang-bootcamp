@@ -1,11 +1,12 @@
 package main
 
-import (
-	"github.com/LuisGSandoval/golang-bootcamp/slices1"
-)
+import "fmt"
 
 func main() {
 
-	slices1.IncreasingCapacity()
+	spendings := [][][3]int{{{10, 5, 9}}}
+
+	// REMEMBER: %T prints the type of a given value
+	fmt.Printf("%T - ", spendings)
 
 }
