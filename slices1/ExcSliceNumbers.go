@@ -6,6 +6,7 @@ import (
 	"strings"
 )
 
+// ExcSliceNumbers testing
 func ExcSliceNumbers() {
 
 	// ---------------------------------------------------------
