@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/LuisGSandoval/golang-bootcamp/slices1"
+	"github.com/LuisGSandoval/golang-bootcamp/limitthebackingarraysharing"
 )
 
 func main() {
 
-	slices1.ExcAdvncedSliceOpt()
+	limitthebackingarraysharing.Limitthebackingarraysharing()
 
 }
