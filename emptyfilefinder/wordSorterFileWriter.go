@@ -5,6 +5,7 @@ import (
 	"io/ioutil"
 	"os"
 	"sort"
+	"strconv"
 )
 
 // WordSorterFileWriter testing
@@ -15,8 +16,8 @@ func WordSorterFileWriter() {
 
 	var words []byte
 
-	for _, arg := range args {
-
+	for i, arg := range args {
+		words = append(words, strconv.Itoa(i+1)+". "...)
 		words = append(words, arg...)
 		words = append(words, "\n"...)
 	}
