@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/LuisGSandoval/golang-bootcamp/limitthebackingarraysharing"
+	"github.com/LuisGSandoval/golang-bootcamp/emptyfilefinder"
 )
 
 func main() {
 
-	limitthebackingarraysharing.Limitthebackingarraysharing()
+	emptyfilefinder.WordSorterFileWriter()
 
 }
