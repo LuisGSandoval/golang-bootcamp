@@ -1,2 +1,7 @@
-dir1/ 
-dir1 copy/ 
+writesubdirnamestofile/
+	dir1
+	 	dir11
+	 	dir12
+	dir1 copy
+	 	dir11
+	 	dir12
