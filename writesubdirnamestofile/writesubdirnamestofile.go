@@ -7,20 +7,19 @@ import (
 	"os"
 )
 
-var (
-	outputFile   = "output.txt"
-	workingDir   = "writesubdirnamestofile"
-	fullWorkPath = workingDir + "/" + outputFile // the plan, is that this could be a relative or complete path, but this works for now
-	dueChecking  []string                        // por utilizar
-)
-
 // WriteSubDirNamesToFile testing
 func WriteSubDirNamesToFile() {
+
+	var (
+		outputFile   = "output.txt"
+		workingDir   = "writesubdirnamestofile"
+		fullWorkPath = workingDir + "/" + outputFile // the plan, is that this could be a relative or complete path, but this works for now
+	)
 
 	paths := os.Args[1:]
 	if len(paths) < 1 {
 		log.Panic("not enough folder paths to process, \nplease add a folder to read the diretories name")
-
+		return
 	}
 
 	var dirs []byte

@@ -2,6 +2,6 @@ writesubdirnamestofile/
 	dir1
 	 	dir11
 	 	dir12
-	dir1 copy
+	dir2
 	 	dir11
 	 	dir12
