@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/LuisGSandoval/golang-bootcamp/emptyfilefinder"
+	"github.com/LuisGSandoval/golang-bootcamp/writesubdirnamestofile"
 )
 
 func main() {
 
-	emptyfilefinder.WordSorterFileWriter()
+	writesubdirnamestofile.WriteSubDirNamesToFile()
 
 }
