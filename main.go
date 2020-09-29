@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/LuisGSandoval/golang-bootcamp/writesubdirnamestofile"
+	"github.com/LuisGSandoval/golang-bootcamp/bouncingball"
 )
 
 func main() {
 
-	writesubdirnamestofile.WriteSubDirNamesToFile()
+	bouncingball.BouncingBall()
 
 }
