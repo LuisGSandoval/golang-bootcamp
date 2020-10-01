@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/LuisGSandoval/golang-bootcamp/bouncingball"
+	"github.com/LuisGSandoval/golang-bootcamp/stringrunebyte"
 )
 
 func main() {
 
-	bouncingball.BouncingBall()
+	stringrunebyte.Stringrunebyte()
 
 }
