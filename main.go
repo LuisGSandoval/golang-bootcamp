@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/LuisGSandoval/golang-bootcamp/stringrunebyte"
+	"github.com/LuisGSandoval/golang-bootcamp/spammasker"
 )
 
 func main() {
 
-	stringrunebyte.Stringrunebyte()
+	spammasker.SpamMasker()
 
 }
