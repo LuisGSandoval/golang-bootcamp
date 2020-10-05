@@ -17,8 +17,4 @@ func Stringrunebyte() {
 
 	}
 
-	var str1 []rune = []rune{'h', 'o', 'l', 'a'}
-	var str2 string = "hola"
-	var str3 []byte = []byte{3}
-
 }

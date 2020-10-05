@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/LuisGSandoval/golang-bootcamp/spammasker"
+	"github.com/LuisGSandoval/golang-bootcamp/maps"
 )
 
 func main() {
 
-	spammasker.SpamMasker()
+	maps.Hogwarts()
 
 }
