@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/LuisGSandoval/golang-bootcamp/maps"
+	"github.com/LuisGSandoval/golang-bootcamp/scaning"
 )
 
 func main() {
 
-	maps.Hogwarts()
+	scaning.Scanning1()
 
 }
