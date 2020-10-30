@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/LuisGSandoval/golang-bootcamp/scaning"
+	"github.com/LuisGSandoval/golang-bootcamp/structwarmup"
 )
 
 func main() {
 
-	scaning.Scanning1()
+	structwarmup.Warmup()
 
 }
